@@ -30,7 +30,7 @@ body {
 /* Header & Menu */
 .menu_sticky {
     position: sticky;
-    top: 0;
+    top: -2px;
     z-index: 999;
     width: 100%;
     background-color: #fff;
