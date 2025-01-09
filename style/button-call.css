@@ -1,0 +1,471 @@
+
+/*  */
+/* Nút Zalo */
+        /* Hiệu ứng sóng hover cho từng nút */
+        /* Nút Facebook (Màu vàng) */
+        @keyframes hoverWaveFacebook {
+            0% {
+                box-shadow: 0 8px 10px rgba(52, 183, 241, 0.3), 0 0 0 0 rgba(52, 183, 241, 0.2);
+            }
+
+            40% {
+                box-shadow: 0 8px 10px rgba(52, 183, 241, 0.3), 0 0 0 15px rgba(52, 183, 241, 0.2);
+            }
+
+            80% {
+                box-shadow: 0 8px 10px rgba(52, 183, 241, 0.3), 0 0 0 30px rgba(52, 183, 241, 0), 0 0 0 26.7px rgba(52, 183, 241, 0.067);
+            }
+
+            100% {
+                box-shadow: 0 8px 10px rgba(52, 183, 241, 0.3), 0 0 0 30px rgba(52, 183, 241, 0), 0 0 0 40px rgba(52, 183, 241, 0.0);
+            }
+}
+
+        /* Nút Zalo (Màu xanh dương) */
+        @keyframes hoverWaveZalo {
+        
+            0% {
+        box-shadow: 0 8px 10px rgba(6, 102, 252, 0.3), 0 0 0 0 rgba(6, 102, 252, 0.2);
+    }
+
+    40% {
+        box-shadow: 0 8px 10px rgba(6, 102, 252, 0.3), 0 0 0 15px rgba(6, 102, 252, 0.2);
+    }
+
+    80% {
+        box-shadow: 0 8px 10px rgba(6, 102, 252, 0.3), 0 0 0 30px rgba(6, 102, 252, 0), 0 0 0 26.7px rgba(6, 102, 252, 0.067);
+    }
+
+    100% {
+        box-shadow: 0 8px 10px rgba(6, 102, 252, 0.3), 0 0 0 30px rgba(6, 102, 252, 0), 0 0 0 40px rgba(6, 102, 252, 0.0);
+    }
+
+        }
+
+        /* Nút Call (Màu đỏ) */
+        @keyframes hoverWaveCall {
+            0% {
+                box-shadow: 0 8px 10px rgba(231, 76, 60, 0.3), 0 0 0 0 rgba(231, 76, 60, 0.2);
+            }
+
+            40% {
+                box-shadow: 0 8px 10px rgba(231, 76, 60, 0.3), 0 0 0 15px rgba(231, 76, 60, 0.2);
+            }
+
+            80% {
+                box-shadow: 0 8px 10px rgba(231, 76, 60, 0.3), 0 0 0 30px rgba(231, 76, 60, 0), 0 0 0 26.7px rgba(231, 76, 60, 0.067);
+            }
+
+            100% {
+                box-shadow: 0 8px 10px rgba(231, 76, 60, 0.3), 0 0 0 30px rgba(231, 76, 60, 0), 0 0 0 40px rgba(231, 76, 60, 0.0);
+            }
+        }
+        
+@keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+
+    10% {
+        transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+    }
+
+    20% {
+        transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+    }
+
+    30% {
+        transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+    }
+
+    40% {
+        transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+    }
+
+    50% {
+        transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+    }
+
+    60% {
+        transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+
+    70% {
+        transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+    }
+
+    80% {
+        transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+    }
+
+    90% {
+        transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+
+    10% {
+        transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+    }
+
+    20% {
+        transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+    }
+
+    30% {
+        transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+    }
+
+    40% {
+        transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+    }
+
+    50% {
+        transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+    }
+
+    60% {
+        transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+    }
+
+    70% {
+        transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+    }
+
+    80% {
+        transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+    }
+
+    90% {
+        transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+
+        /* Nút bấm cơ bản */
+        .btn-call {
+            border-radius: 50%;
+            box-shadow: 0 8px 10px rgba(56, 163, 253, 0.3);
+            cursor: pointer;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            position: fixed;
+            right: 10px;
+            z-index: 999;
+            transition: .3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 23px;
+        }
+
+        /* Tạo khoảng cách giữa các nút */
+        .btn-call:nth-child(1) {
+            bottom: 50px;
+        }
+
+        .btn-call:nth-child(2) {
+            bottom: 140px;
+        }
+
+        .btn-call:nth-child(3) {
+            bottom: 230px;
+        }
+
+        /* Biểu tượng bên trong nút */
+        .btn-call__ico {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            padding-top: 5px;
+            transition: .3s all;
+            animation: shake 1200ms ease 0s normal infinite; /* Hiệu ứng lắc cho biểu tượng */
+        }
+
+        /* Hiệu ứng khi hover vào nút */
+        .btn-call {
+            background-color: #fff;
+            
+        }
+
+        /* Hiệu ứng khi hover vào biểu tượng */
+        .btn-call:hover .btn-call__ico {
+            color: #0069f5;
+            animation: none; /* Tắt hiệu ứng lắc khi hover để sóng được rõ ràng */
+        }
+
+        /* Thêm màu cho các nút khác nhau */
+        .btn-facebook {
+        	animation: hoverWaveFacebook 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng mặc định */
+            background-color: #0666fc /* Màu vàng cho nút Facebook */
+        }
+
+        .btn-facebook:hover {
+            background-color: #fff;
+            animation: hoverWaveFacebook 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng cho nút Facebook */
+        }
+
+        .btn-zalo {
+        	animation: hoverWaveZalo 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng cho nút Zalo */
+            background-color: #1706f1; /* Màu xanh dương cho nút Zalo */
+        }
+
+        .btn-zalo:hover {
+        	color: #0069f5; 
+            background-color: #fff;
+            animation: hoverWaveZalo 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng cho nút Zalo */
+            
+        }
+
+        .btn-call-red {
+        	animation: hoverWaveCall 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng cho nút Zalo */
+            background-color: #e74c3c; /* Màu đỏ cho nút Call */
+        }
+
+        .btn-call-red:hover {
+            background-color: #fff;
+            animation: hoverWaveCall 1s ease-in-out infinite; /* Áp dụng hiệu ứng sóng cho nút Call */
+        }
+
+        /* Thêm chữ "ZALO" cho nút Zalo */
+        .btn-zalo .zalo-text {
+            font-family: 'Noto Sans', sans-serif; /* Áp dụng font Noto Sans */
+            color: white; /* Màu chữ */
+            font-size: 14px; /* Kích thước chữ */
+            font-weight: 900; /* Chữ đậm */
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), -1px -1px 3px rgba(0, 0, 0, 0.3); /* Tạo bóng chữ mềm mại */
+
+            
+        }
+        
+        /* Thay đổi màu chữ Zalo khi hover vào nút */
+        .btn-zalo:hover .zalo-text {
+            color: #0069f5; /* Đổi màu chữ khi hover */
+        }
+      
+        .btn-call__ico i {
+            font-size: 25px; /* Tăng kích thước biểu tượng */
+        }
+        
+
+
+        /* Menu - mb */
+
+                /* Hamburger Icon */
+                .hamburger-menu {
+                    position: fixed;
+                    top: 20px;
+                    left: 20px;
+                    z-index: 1000;
+                    cursor: pointer;
+                }
+        
+                .hamburger-icon {
+                    width: 30px;
+                    height: 3px;
+                    background-color: #333;
+                    position: relative;
+                    transition: all 0.3s ease;
+                }
+        
+                .hamburger-icon:before,
+                .hamburger-icon:after {
+                    content: '';
+                    width: 30px;
+                    height: 3px;
+                    background-color: #333;
+                    position: absolute;
+                    transition: all 0.3s ease;
+                }
+        
+                .hamburger-icon:before {
+                    top: -10px;
+                }
+        
+                .hamburger-icon:after {
+                    bottom: -10px;
+                }
+        
+                /* Mobile Menu */
+                .mobile-menu {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 250px;
+                    height: 100%;
+                    background-color: #fff;
+                    box-shadow: 0 1px 5px rgba(83, 83, 83, 0.2);
+                    transform: translateX(-100%);
+                    transition: transform 0.3s ease;
+                    z-index: 2000;
+                }
+        
+                .mobile-menu.opened {
+                    transform: translateX(0);
+                }
+        
+                .mobile-menu ul {
+                    list-style: none;
+                    padding: 0;
+                    margin-top: 50px;
+                }
+        
+                .mobile-menu ul li {
+                    padding: 15px;
+                    border-bottom: 1px solid #ccc;
+                }
+        
+                .mobile-menu ul li a {
+                    text-decoration: none;
+                    color: #333;
+                    font-size: 18px;
+                    display: block;
+                    transition: color 0.3s;
+                }
+        
+                .mobile-menu ul li a:hover {
+                    color: #10bd3b;
+                }
+        
+                /* Close Button (X) */
+                .close-menu {
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    cursor: pointer;
+                    font-size: 24px;
+                    color: #333;
+                }
+        
+                /* Custom Overlay */
+                .custom-overlay {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.4);
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: opacity 0.3s ease, visibility 0.3s ease;
+                    z-index: 1000;
+                }
+        
+                .custom-overlay.show {
+                    opacity: 1;
+                    visibility: visible;
+                }
+        
+                /* Đảm bảo menu luôn neo ở trên cùng */
+                /* Căn chỉnh menu */
+                /* Căn chỉnh menu với khoảng cách hợp lý */
+        
+        
+                .ds {
+                    margin-top: 0px;
+                }
+        
+                /* Ẩn menu trên mobile */
+                .menu {
+                    display: none;
+                }
+        
+                .toggle_menu {
+                    display: block;
+                    cursor: pointer;
+                }
+        
+                /* Responsive menu */
+                @media (min-width: 768px) {
+                    .menu {
+                        display: block;
+                    }
+        
+                    .toggle_menu {
+                        display: none;
+                    }
+                }
+        
+                .menu li {
+                    margin: 0 15px;
+                    /* Khoảng cách giữa các mục menu */
+                }
+        
+        
+        
+                .menu ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+        
+        
+                .overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                    z-index: 1500;
+                }
