@@ -1,0 +1,193 @@
+
+@media screen and (min-width:768px) {
+    .about-img img {
+        width: 100%;
+        height: 390px;
+    }
+
+    .boder-radius-boxservice {
+        width: 50%;
+
+    }
+
+    .footer_link li {
+        float: none;
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .toggle_menu {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: inline;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu a {
+        font-weight: 700;
+        padding: 8px 25px;
+    }
+
+    .display-line {
+        display: block;
+    }
+
+    .boder-radius-boxservice {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .navbar-header {
+        padding: 0 0 0 80px;
+        margin-right: 40%;
+
+    }
+
+    .boder-radius-boxservice {
+        width: 50%;
+        margin-right: 12px;
+
+    }
+
+    .service-block .inner-box::before {
+        background-color: #f7f6f2;
+        bottom: 0;
+        content: "";
+        height: 410px;
+        left: 52px;
+        position: absolute;
+        transform: skewX(-10deg);
+        width: 200px;
+        z-index: -1;
+    }
+
+    .taxi-scope {
+        padding: 5px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+    }
+
+    .customer img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) and (min-height:600px) {
+    .image-box img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .boder-radius-boxservice {
+        width: 50%;
+
+    }
+    .boder-radius-boxservice {
+        width: 50%;
+  
+
+    }
+
+    .row {
+        display: flex;
+        /* Sử dụng Flexbox */
+        flex-wrap: wrap;
+        /* Cho phép các div tự xuống hàng khi không đủ chỗ */
+        justify-content: center;
+        /* Canh giữa theo chiều ngang */
+        align-items: center;
+        /* Canh giữa theo chiều dọc */
+        gap: var(--bs-gutter-x) var(--bs-gutter-y);
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1430px) {
+    .image-box img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .boder-radius-boxservice {
+        width: 50%;
+
+    }
+
+    .image-box img {
+        height: 500px;
+    }
+
+    .row {
+        display: flex;
+        /* Sử dụng Flexbox */
+        flex-wrap: wrap;
+        /* Cho phép các div tự xuống hàng khi không đủ chỗ */
+        justify-content: center;
+        /* Canh giữa theo chiều ngang */
+        align-items: center;
+        /* Canh giữa theo chiều dọc */
+        gap: var(--bs-gutter-x) var(--bs-gutter-y);
+    }
+}
+
+@media screen and (min-width:1430px) {
+    .taxi-scope {
+        padding: 25px;
+        border-radius: 25px;
+        background-color: white;
+        box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+    }
+
+    .image-box img {
+        height: 500px;
+    }
+
+    .edit-distance {
+        padding: 0;
+    }
+
+    .boder-radius-boxservice {
+        margin-right: 0px;
+        width: 32%;
+
+
+
+        TEXT-ALIGN: CENTER;
+    }
+}
+
+@media screen and (min-width:1423px) {
+    .images-blog img {
+        height: 400px;
+    }
+
+    .navbar-header {
+        padding-left: 117px;
+        margin-right: 180px;
+    }
+
+    .service-block .inner-box::before {
+        background-color: #f7f6f2;
+        bottom: 0;
+        content: "";
+        height: 410px;
+        left: 100px;
+        position: absolute;
+        transform: skewX(-20deg);
+        width: 200px;
+        z-index: -1;
+    }
+
+    .sub_title p {
+        padding-left: 10px;
+    }
+
+    .about-img img {
+        width: 576px;
+        height: 453px;
+    }
+}
