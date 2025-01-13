@@ -212,25 +212,25 @@
     font-size: 28px;
 }
 .image-book-taxi img{
-    padding: 12px 10px 10px 17px;
+    padding: 2px;
     position: relative;
     z-index: 3;
 }
 .image-book-taxi{
     border: 1px solid black;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+  
+    
     z-index: 3;
     position: relative;
 }
 .image-book-taxi:hover{
-    background-color: #ffee02;
+    background-color: #02b7ff;
     transition: all 0.3s ease-in;
     border: 1px solid white;
 }
 .inner-box::before{
-    background-color: #ffee02;
+    background-color: #4ce1ff;
     content: "";
     height: 290px;
     left: 65px;
@@ -830,3 +830,142 @@ nav.hide{
             opacity: 1;
             visibility: visible;
         }
+        @media (max-width: 480px) {
+            .about-experience b{
+                font-size: 10px;
+            }
+        }
+        /*  */
+   /* Styling tổng thể block */
+.work-block {
+    flex: 0 0 48%; /* Chiếm 48% chiều ngang, đảm bảo 2 box trên 1 hàng */
+    box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    max-height: 500px;
+    margin-bottom: 20px;
+    display: flex; /* Flexbox tách ảnh và nội dung */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hình ảnh bên trái */
+.image-book-taxi {
+    flex: 1; /* Chiếm 1 phần diện tích */
+    max-width: 630px; /* Kích thước tối đa */
+    border-radius: 50px; /* Bo góc hình ảnh */
+    overflow: hidden;
+}
+
+.image-book-taxi img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Giữ tỷ lệ hình ảnh */
+    border-radius: 50px;
+}
+
+/* Nội dung bên phải */
+.content {
+    flex: 2; /* Chiếm 2 phần diện tích */
+}
+
+.title-booking-taxi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content .text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Responsive chỉnh layout dọc */
+@media (max-width: 768px) {
+    .work-block {
+        flex-direction: column; /* Chuyển từ ngang sang dọc */
+    }
+
+    .image-book-taxi {
+        margin-bottom: 20px; /* Thêm khoảng cách dưới hình ảnh */
+    }
+
+    .content {
+        text-align: center; /* Căn giữa nội dung */
+    }
+}
+
+/* Styling tổng thể cho row */
+.row {
+    margin: 0; /* Xóa khoảng trống mặc định */
+    width: 100%; /* Chiếm 100% chiều ngang */
+    padding: 10px 0;
+    display: flex; /* Flexbox cho bố cục ngang */
+    flex-wrap: wrap; /* Tự động xuống hàng nếu không đủ chỗ */
+    justify-content: space-between; /* Căn đều khoảng cách giữa các box */
+    align-items: stretch; /* Đảm bảo các box có cùng chiều cao */
+}
+
+
+
+@media (max-width: 576px) {
+    .content .text {
+        font-size: 13px;
+        color: #666;
+        line-height: 1.8;
+    }
+
+    
+    .image-book-taxi  {
+        width: 100%;
+        height: 200px;
+        object-fit: cover; /* Giữ tỷ lệ hình ảnh */
+        border-radius: 50px;
+    }
+    .work-block {
+        margin-bottom: 20px; /* Tạo khoảng cách giữa các work-block */
+    }
+    .image-book-taxi {
+        width: 100%; /* Đảm bảo phần tử chứa chiếm hết chiều rộng */
+        height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ hình ảnh */
+        overflow: hidden; /* Ẩn phần hình ảnh bị thừa nếu có */
+        position: relative; /* Đảm bảo không gian hình ảnh được tính toán chính xác */
+    }
+    
+    .image-book-taxi img {
+        width: 100%; /* Đảm bảo hình ảnh luôn chiếm hết chiều rộng */
+        height: 100%; /* Cũng đảm bảo hình ảnh bao phủ hết chiều cao của khối chứa */
+        object-fit: cover; /* Giữ tỷ lệ hình ảnh phù hợp với khối chứa mà không bị bóp méo */
+        border-radius: 10px; /* Bo góc hình ảnh nếu cần */
+    }
+    .about-experience b{
+        font-size: 10px; /* Giảm kích thước tiêu đề */
+
+    }
+    
+    .inner-box {
+        padding: 10px; /* Giảm padding để tiết kiệm không gian */
+    }
+    .image-book-taxi img {
+        max-width: 100%; /* Hình ảnh tự co giãn theo khung chứa */
+        height: auto; /* Duy trì tỉ lệ hình ảnh */
+    }
+    .title-booking-taxi {
+        font-size: 16px; /* Giảm kích thước tiêu đề */
+    }
+    .text {
+        font-size: 14px; /* Giảm kích thước nội dung */
+    }
+    .col-lg-6, .col-md-6, .col-6 {
+        flex: 0 0 100%; /* Mỗi phần tử chiếm toàn bộ chiều ngang màn hình */
+        max-width: 100%;
+        text-align: center; /* Căn giữa nội dung */
+    }
+    .content {
+        margin-top: 10px; /* Tạo khoảng cách giữa hình ảnh và nội dung */
+    }
+}
