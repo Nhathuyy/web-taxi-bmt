@@ -952,7 +952,7 @@ table {
 @media screen and (min-width: 1423px) {
     /* Chiều rộng màn hình từ 1423px đến 1430px */
     .images-blog img {
-        height: 200px;
+        height: 250px;
     }
 
     .navbar-header {
