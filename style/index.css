@@ -655,7 +655,7 @@ table {
 .footer_container {
     position: relative;
     /* Make the container a positioning context */
-    background-image: url(/images/President_11.jpg);
+    background-image: url(/images/President_11.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
