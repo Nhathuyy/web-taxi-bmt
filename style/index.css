@@ -1,11 +1,15 @@
 * {
-    font-size: 14px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 14px;
 
 }
-
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Ngăn cuộn ngang */
+  }
 .background {
     background-color: #28bdbf;
 }
@@ -122,10 +126,11 @@
 .theme-btn {
     color: black;
     text-decoration: none;
-    background-color: white;
+    background-color: rgb(255, 64, 0);
     padding: 10px 40px;
     border-radius: 25px;
     font-size: 16px;
+    color:white;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 0.5;
@@ -1077,6 +1082,7 @@ nav.hide {
     display: none;
 }
 
+
 /* Mobile-specific styles */
 @media (max-width: 768px) {
     .navbar-header {
@@ -1105,6 +1111,7 @@ nav.hide {
         display: block;
     }
 }
+
 
 /*  */
 
@@ -1199,6 +1206,55 @@ nav.hide {
     .custom-overlay.show {
         visibility: visible;
         opacity: 1;
+    }
+}
+/* Mobile-specific styles */
+@media (max-width: 480px) {
+    .hero-title span  {
+        color: #ffeb3b;
+        font-size: 30px;
+    }
+    .site-sub-title span {
+        color: #00d1d5;
+        font-size: 28px;
+    
+    }
+    .location-text-1phut {
+        font-size: 28px;
+    }
+    .hero-single {
+        margin-top: -50px;
+        height: 780px;
+    }
+    .image-box img {
+        width: 200px;
+        height: 200px;
+    
+    }
+    .row {
+        padding:0;
+    }
+    .navbar-header {
+        padding-left: 0px; 
+        margin-right: 0px; 
+    }
+ 
+    .menu {
+        display: none;
+        /* Hide the main menu on mobile */
+    }
+
+    .toggle_menu {
+
+        margin-right: 20px;
+
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Make menu visible when toggled */
+    .mobile-menu-overlay {
+        display: block;
     }
 }
 
